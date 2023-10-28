@@ -1,0 +1,41 @@
+<div class="row">
+  <div class="col-md-4 mx-auto">
+    <div class="card mt-5 bg-black text-white rounded">
+      <div class="card-header text-center pt-5">
+        <h1 class="h4 text-white">
+          Información
+        </h1>
+      </div>
+      <div class="card-body">
+        <form action="/auth/signin" method="POST">
+          <div class="mb-3">
+            <label for="email" style="display: none;">Email:</label>
+            <input
+              type="email"
+              class="form-control bg-dark text-white"
+              name="email"
+              placeholder="Email"
+              value="gaby@gmail.com"
+              style="display: none;"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="passswore" style="display: none;">Password:</label>
+            <input
+              type="password"
+              class="form-control bg-dark text-white"
+              name="password"
+              placeholder="Password"
+              value="1234"
+              style="display: none;"
+            />
+          </div>
+          <p>Esta es una aplicación para la administración de notas, en la que puedes encontrar algunas de las funcionalidades básicas, como administrar, eliminar y editar las notas</p>
+          <button class="btn btn-success btn-block">
+            Siguiente
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
